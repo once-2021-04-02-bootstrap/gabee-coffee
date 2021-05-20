@@ -20,22 +20,9 @@
 
     <header>
 
-        <div class="jumbotron jumbotronImg jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <h1 class="display-4">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-                        featured content or information.</p>
-                    <hr class="my-4">
-                    <p></p>
-                    <a class="btn btn-danger btn-lg align-item-end" href="#" role="button">ORDER NOW</a>
-                </div>
-            </div>    
-        </div>
-
         <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,10 +31,13 @@
                         <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>
                                 Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About</a>
+                        <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About</a>
                         </li>
-                    
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>
+                                Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="order.html"><i class=" fa fa-mobile fa-lg"></i> Mobile Ordering</a></li>       
                     </ul>
+                  
                     <span class="navbar-text ml-auto">
                         <a role="button" id="loginButton">
                             <i class="fa fa-sign-in"></i> Login
@@ -56,6 +46,22 @@
                 </div>
             </div>
         </nav>
+
+        <div class="jumbotron jumbotronImg jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-4">Gabee Coffee</h1>
+                        <h3 class="lead">Everything we brew, we brew it for you</h3>
+                    </div>
+                    <div class="col col-md-4 col-xl-2 mt-4">
+                    <a class="btn btn-danger btn-lg align-item-end" href="#" role="button">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+       
     </header>
 
     
@@ -64,10 +70,196 @@
         
 
 
-        <div class="row">
+        <div class="row row-content ">
             <div class="col">
-                <p>This is your project starter. Feel free to change everything to build your project idea.</p>
+                <h3 >Coffee Options</h3>
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-item"><a class="nav-link active" href="#brewed" role="tab" data-toggle="tab"> Brewed Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#espresso" role="tab" data-toggle="tab">Espresso Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#latte" role="tab" data-toggle="tab">Latte Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mocha" role="tab" data-toggle="tab">Mocha Drinks</a></li>
+                </ul>
+                <div class="tab-content ">
+                    <div role="tabpanel" class="tab-pane fade show active" id="brewed">
+                        <h4>FaBREWlous Coffee <small>Most drinks are available iced. | Soy & Almond Milk also available.</small></h4>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Costa Rica Fair Trade Organic Tarrazu Monarca Afaorca</h5>
+                                  <p class="card-text">*Cupping note- Rhubarb, Hibiscus, Passion Fruit, Cream, Semi-Sweet Chocolate</p>
+                                  <p class="card-text">Mechanically washed with an eco-friendly demucilager, and then dried on patios and raised beds</p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Ethiopia Yirgacheffe G1 Organic</h5>
+                                  <p class="card-text">*Cupping note- Lemonade, Raspberry, Cedar, Cocoa</p>
+                                  <p class="card-text">Process- Fully washed and dried on the raised beds, Indigenous</p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">100% Jamaica Blue Mountain No.1 Grade
+                                    </h5>
+                                    <p class="card-text">*Cupping note- Sweet-toned , soft & very delicate aroma with orange and floral and crisp chocolate</p>
+                                    <p class="card-text">Process- Fully washed and dried in the sun</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Peru Organic SHB MCM Gr1 - Swiss Water Decaf</h5>
+                                    <p class="card-text">*Cupping note- Nice sweetness, fig, cinnamon, molasses</p>
+                                    <p class="card-text">*This is an Organic certified SHB MCM Gr1 coffee from Peru decaffeinated using the patented Swiss Water Process.</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          
+                    </div>    
+                    <div role="tabpanel" class="tab-pane fade" id="espresso">
+                        <h4>Espresso-ly for you <small>Most drinks are available iced. | Soy & Almond Milk also available</small></h4>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Espresso</h5>
+                                  <p class="card-text">
+                                    Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.
 
+                                    </p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Espresso Macchiato</h5>
+                                  <p class="card-text">Our rich espresso marked with dollop of steamed milk and foam. A European-style classic.</p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Espresso Con Panna Doppio</h5>
+                                    <p class="card-text">
+                                        Espresso meets a dollop of whipped cream to enhance the rich and caramelly flavors of a straight-up shot.
+                                        </p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Espresso Ristretto</h5>
+                                    <p class="card-text">A stronger shot of espresso, made using finer coffee grounds and half the amount of water.</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="latte">
+                        <h4>Better Latte than never <small>Most drinks are available iced. | Soy & Almond Milk also available</small></h4>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Caffe Latte</h5>
+                                  <p class="card-text">
+                                    Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect milk forward warm up.</p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Cinnamon Dolce Latte</h5>
+                                  <p class="card-text">We add freshly steamed milk and cinnamon dolce flavored syrup to our classic espresso, then top it off with sweetened whipped cream and cinnamon dolce topping. You’re in for a treat.</p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Latte Macchiato</h5>
+                                    <p class="card-text">
+                                        This espresso classic has espresso shots slowly poured over lightly aerated milk for a bold and roasty new way to sip.</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Vanilla Latte</h5>
+                                    <p class="card-text">Want a little hint of sweetness without committing to a full-sugar overload? That is where vanilla comes in</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="mocha">    
+                        <h4>You Mocha me crazy <small>Most drinks are available iced. | Soy & Almond Milk also available</small></h4>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Caffe Mocha</h5>
+                                  <p class="card-text">We combine our rich, full-bodied espresso with bittersweet mocha sauce and steamed milk, then top it off with sweetened whipped cream. The classic coffee drink to satisfy your sweet tooth.
+                                </p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">White Chocolate Mocha</h5>
+                                  <p class="card-text">Our signature espresso meets white chocolate sauce and steamed milk, then is finished off with sweetened whipped cream in this white chocolate delight.
+                                </p>
+                                  <a href="#" class="btn btn-primary">Add to order</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Samoa Mocha</h5>
+                                    <p class="card-text">The Samoa Mocha if you love the Girl Scout cookie this is your drink with flavors of white chocolate and toasted coconut.</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Peppermint Mocha</h5>
+                                    <p class="card-text">Chocolate with hints of mint! A very addictive beverage!</p>
+                                    <a href="#" class="btn btn-primary">Add to order</a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>    
+                </div>
             </div>
         </div>
 
@@ -80,7 +272,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="#">Order</a></li>
                     </ul>
                 </div>
