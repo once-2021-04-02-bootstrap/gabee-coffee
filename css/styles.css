@@ -3,12 +3,13 @@ main {
 }
 
 .jumbotron {
-  background-color: #3e1404;
+  background-color: #7c1e3b;
   color: white;
 }
 
 .nav-tabs {
   text-align:center;
+  margin-top: 20px;
 }
 
 .tab-content {
@@ -18,5 +19,13 @@ main {
 .card {
   margin-top: 20px;
 }
+
+
+body {
+  background-color: #f6e7ce;
+}
+
+
+
 
 
