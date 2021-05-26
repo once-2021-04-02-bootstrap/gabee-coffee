@@ -39,8 +39,9 @@ a, a:hover {
   background-color: maroon;
 }
 
-.orderBtn{
-  background-color: maroon;
+h1 {
+  padding: 20px;
+  margin-top: 1em;
 }
 
 
